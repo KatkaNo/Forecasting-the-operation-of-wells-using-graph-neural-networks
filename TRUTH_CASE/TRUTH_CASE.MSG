@@ -1,0 +1,149 @@
+<eclipse>
+<message source="eclrun" date="" time="0">
+Executing ECLIPSE on pc system with x86_64 architecture named w07750
+</message>
+<message source="eclrun" date="" time="0">
+Process ID is 1980
+</message>
+<message source="eclrun" date="" time="0">
+Starting HDF conversion ...
+</message>
+<message source="eclrun" date="" time="0">
+HDF conversion completed successfully.
+</message>
+<message date="1/1/2010" time="0.00000000000000">
+ CHECKING FOR LICENSES                                                   
+</message>
+<message date="1/1/2010" time="0.00000000000000">
+ CHECKING FOR LICENSES                                                   
+</message>
+<message date="1/1/2010" time="0.00000000000000">
+ THE MEMORY REQUIRED TO PROCESS THE GRID SECTION IS                      
+       5390 KBYTES                                                       
+</message>
+<comment date="1/1/2010" time="0.00000000000000">
+ J-FUNCTION CALCULATION WILL USE                                         
+ PERMEABILITIES FOR JFUNCR TABLE 1                                       
+</comment>
+<message date="1/1/2010" time="0.00000000000000">
+ THE .GSG FILE HAS BEEN OPENED SUCCESSFULLY.                             
+ GRID WILL BE TREATED AS IF IN GDFILE FORMAT                             
+</message>
+<message date="1/1/2010" time="0.00000000000000">
+ CORNER POINT GRID WITH STRAIGHT PILLARS BEING IMPORTED                  
+</message>
+<message date="1/1/2010" time="0.00000000000000">
+ GLOBAL GRID GEOMETRY IMPORTED USING .GSG FILE HAS                       
+ BEEN READ SUCCESSFULLY. THE INPUT GRID IS                               
+   24 x 18 x 15                                                          
+</message>
+<message date="1/1/2010" time="0.00000000000000">
+ KEYWORD ACTNUM   IMPORTED FROM .GSG FILE                                
+</message>
+<message date="1/1/2010" time="0.00000000000000">
+ KEYWORD PERMX    IMPORTED FROM .GSG FILE                                
+</message>
+<message date="1/1/2010" time="0.00000000000000">
+ KEYWORD PERMY    IMPORTED FROM .GSG FILE                                
+</message>
+<message date="1/1/2010" time="0.00000000000000">
+ KEYWORD PERMZ    IMPORTED FROM .GSG FILE                                
+</message>
+<message date="1/1/2010" time="0.00000000000000">
+ KEYWORD PORO     IMPORTED FROM .GSG FILE                                
+</message>
+<message date="1/1/2010" time="0.00000000000000">
+ KEYWORD NTG      IMPORTED FROM .GSG FILE                                
+</message>
+<message date="1/1/2010" time="0.00000000000000">
+ NEITHER OLDTRAN,OLDTRANR NOR NEWTRAN SPECIFIED                          
+ TRANSMISSIBILITIES TO BE CALCULATED                                     
+ USING  NEWTRAN                                                          
+</message>
+<message date="1/1/2010" time="0.00000000000000">
+      3   NON-NEIGHBOUR CONNECTIONS NNCS HAVE BEEN                       
+ DELETED SINCE THEY HAVE ZERO TRANSMISSIBILITY                           
+ AFTER PROCESSING THE EDIT SECTION                                       
+</message>
+<message date="1/1/2010" time="0.00000000000000">
+       14 NON-NEIGHBOUR CONNECTIONS HAVE BEEN IGNORED                    
+ AS THEIR TRANSMISSIBILITY IS LESS THAN 0.100000E-05                     
+</message>
+<message date="1/1/2010" time="0.00000000000000">
+ 444 NON-NEIGHBOUR CONNECTIONS PRESENT                                   
+</message>
+<message date="1/1/2010" time="0.00000000000000">
+ NUMBER OF ACTIVE CELLS IS 6337                                          
+</message>
+<message date="1/1/2010" time="0.00000000000000">
+ THE MEMORY REQUIRED TO PROCESS THE SOLUTION SECTION IS                  
+       9601 KBYTES                                                       
+</message>
+<message date="1/1/2010" time="0.00000000000000">
+    62229 CHARACTER VARIABLES USED                                       
+</message>
+<message date="1/1/2010" time="0.00000000000000">
+ KEYWORD SWL      IMPORTED FROM .GSG FILE                                
+</message>
+<message date="1/1/2010" time="0.00000000000000">
+ KEYWORD SOWCR    IMPORTED FROM .GSG FILE                                
+</message>
+<message date="1/1/2010" time="0.00000000000000">
+ KEYWORD SWCR     IMPORTED FROM .GSG FILE                                
+</message>
+<message date="1/1/2010" time="0.00000000000000">
+ KEYWORD SWU      IMPORTED FROM .GSG FILE                                
+</message>
+<message date="1/1/2010" time="0.00000000000000">
+ KEYWORD SWATINIT IMPORTED FROM .GSG FILE                                
+</message>
+<message date="1/1/2010" time="0.00000000000000">
+ THE ROCK DATA FOR EACH BLOCK WILL CORRESPOND                            
+ TO THE ROCK REGION NUMBERS (ROCKNUM) AS THE                             
+ THIRD ITEM IN THE ROCKOPTS KEYWORD HAS BEEN                             
+ SET TO ROCKNUM                                                          
+</message>
+<warning date="1/1/2010" time="0.00000000000000">
+ IF THE CAP-PRESSURE SCALING TO AN INITIAL WATER                         
+ SATURATION OPTION (SWATINIT KEYWORD) IS USED                            
+ WITH EITHER THE J-FUNCTION OPTION OR THE                                
+ PCW KEYWORD THE SWATINIT DATA WHERE SPECIFIED                           
+ WILL BE USED.                                                           
+</warning>
+<message date="1/1/2010" time="0.00000000000000">
+ KEYWORD SATNUM   IMPORTED FROM .GSG FILE                                
+</message>
+<message date="1/1/2010" time="0.00000000000000">
+ KEYWORD PVTNUM   IMPORTED FROM .GSG FILE                                
+</message>
+<message date="1/1/2010" time="0.00000000000000">
+ KEYWORD ROCKNUM  IMPORTED FROM .GSG FILE                                
+</message>
+<message date="1/1/2010" time="0.00000000000000">
+ KEYWORD EQLNUM   IMPORTED FROM .GSG FILE                                
+</message>
+<message date="1/1/2010" time="0.00000000000000">
+ OPENING WELL P1       AT TIME      0.00   DAYS                          
+ CONTROLLED BY LIQUID RATE                                               
+</message>
+<message date="1/7/2010" time="181.00000000000000">
+ OPENING WELL I2       AT TIME    181.00   DAYS                          
+ CONTROLLED BY WATER RATE                                                
+</message>
+<message date="1/1/2011" time="365.00000000000000">
+ OPENING WELL P2       AT TIME    365.00   DAYS                          
+ CONTROLLED BY LIQUID RATE                                               
+</message>
+<message date="1/7/2011" time="546.00000000000000">
+ OPENING WELL I3       AT TIME    546.00   DAYS                          
+ CONTROLLED BY WATER RATE                                                
+</message>
+<message date="1/1/2012" time="730.00000000000000">
+ OPENING WELL P3       AT TIME    730.00   DAYS                          
+ CONTROLLED BY LIQUID RATE                                               
+</message>
+<message date="1/7/2012" time="912.00000000000000">
+ OPENING WELL I1       AT TIME    912.00   DAYS                          
+ CONTROLLED BY WATER RATE                                                
+</message>
+</eclipse>

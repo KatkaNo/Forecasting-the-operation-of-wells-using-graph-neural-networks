@@ -1,0 +1,133 @@
+Started task with 8 threads.
+CPU affinity for threads [0-7]: [00-19]
+
+
++===========================================================================================================================================+
+|                                                             Nodes info report                                                             |
++=======+===========================================================+=======================================================================+
+| node  | CPU                                                       | GPU                                                                   |
+|       |===========================================================|=======================================================================|
+|       |                                   | cores    | cores      |                       |          |            | cores    | cores      |
+|       | type                              | used     | available  | type                  | used     | available  | used     | available  |
++=======+===================================+==========+============+=======================+==========+============+==========+============+
+| W09992|12th Gen Intel(R) Core(TM) i7-12700|         8|          20|NVIDIA GeForce RTX 3070|         0|           1|         0|        5888|
++=======+===================================+==========+============+=======================+==========+============+==========+============+
+
+
+Rock Flow Dynamics (R) tNavigator 22.4 Simulator
+Full version: v22.4-4286-gd6e009802829
+Program build Mar  4 2023 04:43:05
+Technical Support: tnavigator@rfdyn.com
+Website: https://rfdyn.com
+
+Copyright (C) Rock Flow Dynamics 2005-2023.
+All rights reserved.
+
+User	matveeviv
+On host	W09992.main.hw.tpu.ru
+Company	oilsofts@foxmail.com
+Purpose	commercial
+OS Type	 (Build 9200)
+OS Version	6.2.9200 (64-bit)
+CPU Speed	2112 MHz
+CPU Model	12th Gen Intel(R) Core(TM) i7-12700
+CPU	20 x x86_64 level 6 model 151 stepping 2
+Memory	65277 MB
+Adapter Id	04:42:1a:e9:60:4e
+
+
+Current license type:
+    file license
+License file:
+C:\Program Files\RFD\tNavigator\22.4/license.dat
+License valid till: 8.9.2100 00:00:00
+License status: OK[1]
+
+Application has been started with command line:
+    C:/Program Files/RFD/tNavigator/22.4/tNavigator-v22.4.exe --cpu-num=8 --physics=auto --launch-gui=document --main-window-id=-4 --queue-id=0 --dispatcher-task-port=-1 --dispatcher-ip=tNavigator_local.matveeviv.10E0AB00-3BD8-B2F5-7B49-C17104F72F56 D:/MatveevIV/Командировки/2024/03_Сочи/материал/граф/TRUTH_CASE/TRUTH_CASE.DATA
+Current date and time:
+    Fri Mar 29 14:12:50 2024
+Working directory:
+    C:/Program Files/RFD/tNavigator/22.4
+Running without remote gui connection.
+Start detecting model type...
+File name DAT        = D:/MatveevIV/Командировки/2024/03_Сочи/материал/граф/TRUTH_CASE/TRUTH_CASE.DATA
+File name ERR        = D:/MatveevIV/Командировки/2024/03_Сочи/материал/граф/TRUTH_CASE/RESULTS/TRUTH_CASE.err
+File name LOG        = D:/MatveevIV/Командировки/2024/03_Сочи/материал/граф/TRUTH_CASE/RESULTS/TRUTH_CASE.log
+
+Initial Model Type: E1.
+The following files have been included:
+File 'D:/MatveevIV/Командировки/2024/03_Сочи/материал/граф/TRUTH_CASE/TRUTH_CASE.DATA' Line 40:
+Model dimensions: NX = 24, NY = 18, NZ = 15 (SIZE = 6480).
+
+Model type: E1.
+
+INC file [#0001] name = D:/MatveevIV/Командировки/2024/03_Сочи/материал/граф/TRUTH_CASE/TRUTH_CASE_GRID.INC
+
+INC file [#0002] name = D:/MatveevIV/Командировки/2024/03_Сочи/материал/граф/TRUTH_CASE/TRUTH_CASE_EDIT.INC
+Total active grid blocks = 6337.
+Total pore volume = 9831189.513950758 rm3.
+Info: 17 non-neighbour connections have transmissibility less than 1.0e-06 cP.rm3/day/bars.Transmissibility in these links will be set to zero.
+Writing of .EGRID file 'D:/MatveevIV/Командировки/2024/03_Сочи/материал/граф/TRUTH_CASE/RESULTS/TRUTH_CASE.EGRID' has been started!
+Writing of .EGRID file 'D:/MatveevIV/Командировки/2024/03_Сочи/материал/граф/TRUTH_CASE/RESULTS/TRUTH_CASE.EGRID' has been finished!
+
+INC file [#0003] name = D:/MatveevIV/Командировки/2024/03_Сочи/материал/граф/TRUTH_CASE/TRUTH_CASE_PROPS.INC
+Saturation functions: SWOF.
+
+INC file [#0004] name = D:/MatveevIV/Командировки/2024/03_Сочи/материал/граф/TRUTH_CASE/TRUTH_CASE_SOL.INC
+
+INC file [#0005] name = D:/MatveevIV/Командировки/2024/03_Сочи/материал/граф/TRUTH_CASE/TRUTH_CASE_SUM.INC
+
+INC file [#0006] name = D:/MatveevIV/Командировки/2024/03_Сочи/материал/граф/TRUTH_CASE/TRUTH_CASE_SCH.INC
+Include file "TRUTH_CASE_time_step_operations.txt" started.
+Info: J-Function calculation will use XY permeabilities.
+Info: initial equilibrium regions calculation start...
+Equilibration region number 1:
+Info: initial equilibrium regions calculation end
+Writing of .INIT file 'D:/MatveevIV/Командировки/2024/03_Сочи/материал/граф/TRUTH_CASE/RESULTS/TRUTH_CASE.INIT' has been started!
+Writing of .INIT file 'D:/MatveevIV/Командировки/2024/03_Сочи/материал/граф/TRUTH_CASE/RESULTS/TRUTH_CASE.INIT' has been finished successfully!
+        Total elapsed = 00.00.00, CPU elapsed = 00.00.00.
+Reading of .SMSPEC file 'D:/MatveevIV/Командировки/2024/03_Сочи/материал/граф/TRUTH_CASE/TRUTH_CASE.SMSPEC' has been started!
+Reading of .SMSPEC file 'D:/MatveevIV/Командировки/2024/03_Сочи/материал/граф/TRUTH_CASE/TRUTH_CASE.SMSPEC' has been finished!
+Reading of .UNSMRY file 'D:/MatveevIV/Командировки/2024/03_Сочи/материал/граф/TRUTH_CASE/TRUTH_CASE.UNSMRY' has been started!
+Reading of .UNSMRY file 'D:/MatveevIV/Командировки/2024/03_Сочи/материал/граф/TRUTH_CASE/TRUTH_CASE.UNSMRY' has been finished!
+
+Binary summary file(s) found!
+You can see these graphs in 'Graphs' tab (marked by [E]).
+
+############      MODEL READ STATUS       ############
+Errors                                 0
+Problems                               0
+Warnings                               3
+
+############          STATISTICS FOR MODEL           ############
+Model file: 'D:/MatveevIV/Командировки/2024/03_Сочи/материал/граф/TRUTH_CASE/TRUTH_CASE.DATA'.
+Number of steps: 83.
+Starting date: 01 JAN 2010.
+Number of connections: 83.
+Maximal number of connections per well: 15.
+Number of wells: 6. Number of groups: 2.
+Number of active blocks: 6337.
+Components Number (including water): 2.
+Total process image size: 511.203MB.
+Reading of maps from .INSPEC file 'D:/MatveevIV/Командировки/2024/03_Сочи/материал/граф/TRUTH_CASE/RESULTS/TRUTH_CASE.INSPEC' has been started!
+Reading of maps from .INSPEC file 'D:/MatveevIV/Командировки/2024/03_Сочи/материал/граф/TRUTH_CASE/RESULTS/TRUTH_CASE.INSPEC' has been finished!
+Initializing well log data took 0.000000 secs
+Info: all physical values computation on first step started
+Info: all physical values computation on first step finished
+Info: original FIP data calculation started.
+Info: original FIP data calculation finished.
+Original oil in place: 1662.7154 th. sm3.
+Original free oil in place: 1662.7154 th. sm3.
+Original vaporized oil in place: 0.0000 sm3.
+Original mobile oil in place: 1041.4832 th. sm3.
+Original water in place: 7858.7772 th. sm3.
+Original mobile water in place: 4781.5437 th. sm3.
+Original gas in place: 36.0610 mln. sm3.
+Original free gas in place: 0.0000 sm3.
+Original dissolved gas in place: 36.0610 mln. sm3.
+Original mobile gas in place: 0.0000 sm3.
+Original hydrocarbon in place: 1816.5288 th. rm3.
+Original displ. hydrocarbon in place: 1137.8285 th. rm3.
+Pore volume at P(ref): 9831.1895 th. rm3.
+Pore volume: 9787.4527 th. rm3.

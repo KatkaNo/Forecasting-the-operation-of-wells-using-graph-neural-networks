@@ -1,0 +1,89 @@
+-- Generated [
+-- Format      : ECLIPSE keywords (ASCII)
+-- Exported by : Petrel 2018.1 Schlumberger
+-- User name   : eremyanga
+-- Date        : Monday, November 30 2020 13:23:17
+-- Project     : prepare_v4.pet
+-- Generated ]
+
+RUNSPEC
+
+FAULTDIM                               -- Generated : Petrel
+  18 /
+
+ENDSCALE                               -- Generated : Petrel
+  /
+
+TITLE                                  -- Generated : Petrel
+'TRUTH_CASE'
+
+WELLDIMS                               -- Generated : Petrel
+  6 15 2 6 /
+
+START                                  -- Generated : Petrel
+  1 JAN 2010 /
+
+WATER                                  -- Generated : Petrel
+
+OIL                                    -- Generated : Petrel
+
+PETOPTS                                -- Generated : Petrel
+INITNNC EDITSUPP /
+
+MONITOR                                -- Generated : Petrel
+
+MULTOUT                                -- Generated : Petrel
+
+METRIC                                 -- Generated : Petrel
+
+DIMENS                                 -- Generated : Petrel
+  24 18 15 /
+
+TABDIMS                                -- Generated : Petrel
+  12* 1 /
+
+UNIFOUT
+
+GRID
+
+INCLUDE                                -- Generated : Petrel
+'TRUTH_CASE_GRID.INC' /
+
+NOECHO                                 -- Generated : Petrel
+
+PETGRID                                -- Generated : Petrel
+'TRUTH_CASE.GSG' /
+
+ECHO                                   -- Generated : Petrel
+
+EDIT
+
+INCLUDE                                -- Generated : Petrel
+'TRUTH_CASE_EDIT.INC' /
+
+PROPS
+
+INCLUDE                                -- Generated : Petrel
+'TRUTH_CASE_PROPS.INC' /
+
+REGIONS
+
+NOECHO                                 -- Generated : Petrel
+
+ECHO                                   -- Generated : Petrel
+
+SOLUTION
+
+INCLUDE                                -- Generated : Petrel
+'TRUTH_CASE_SOL.INC' /
+
+SUMMARY
+
+INCLUDE                                -- Generated : Petrel
+'TRUTH_CASE_SUM.INC' /
+
+SCHEDULE
+
+INCLUDE                                -- Generated : Petrel
+'TRUTH_CASE_SCH.INC' /
+

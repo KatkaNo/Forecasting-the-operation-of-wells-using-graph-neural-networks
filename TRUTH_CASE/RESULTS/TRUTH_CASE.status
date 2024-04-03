@@ -1,0 +1,18 @@
+f63999534933629a17daf7b58e1280676847c11bde9a62c059143540d576656d
+{
+  "simulator": {
+    "ELAPSED_TIME": "00.00.00",
+    "ELAPSED_TIME_USEC": "        -1",
+    "ESTIMATED_TIME": "00.00.00",
+    "ESTIMATED_TIME_USEC": "        -1",
+    "EXE_PATH": "C:\\Program Files\\RFD\\tNavigator\\22.4\\tNavigator-v22.4.exe",
+    "HOST": "W09992",
+    "MODIFICATION_TIME": "Fri Mar 29 14:13:23 2024",
+    "PID": "31548",
+    "PROGRESS": "0",
+    "SIM_STATUS": "TNAV_STATE_PAUSED",
+    "STATUS": "finished",
+    "USERNAME": "matveeviv",
+    "VERSION": "v22.4-4286-gd6e009802829"
+  }
+}

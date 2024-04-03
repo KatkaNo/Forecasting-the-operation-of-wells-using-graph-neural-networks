@@ -1,0 +1,81 @@
+# This file contain metadata for one of the tNavigator result files
+# DO NOT EDIT IT MANUALLY!
+# version = 0.3.0
+# revision =   v22.4-4286-gd6e009802829
+# mesh hash = 6CFJZOVXmrLSVPjT139KGz45TT3zjkmAzQ7+0hLqEcA=
+
+[properties]
+  ACTNUM = 0
+  DEPTH = 1
+  PORO = 2
+  PORV = 3
+  NTG = 4
+  PERMX = 5
+  PERMY = 6
+  PERMZ = 7
+  TRANX = 8
+  TRANY = 9
+  TRANZ = 10
+  ROCKNUM = 11
+  SWATINIT = 12
+  SWCR = 13
+  SOWCR = 14
+  SWU = 15
+  SWL = 16
+  SATNUM = 17
+  PVTNUM = 18
+  EQLNUM = 19
+  FIPNUM = 20
+  WORKDEPTH = 21
+  PRESSURE = 22
+  SWAT = 23
+  SOIL = 24
+  PCW = 25
+
+[units]
+  units::no = 0
+  ACTNUM = 0
+  units::length = 1
+  DEPTH = 1
+  PORO = 0
+  units::reservoir_volume = 49
+  PORV = 49
+  NTG = 0
+  PERMX = 0
+  PERMY = 0
+  PERMZ = 0
+  units::transmissibility = 77
+  TRANX = 77
+  TRANY = 77
+  TRANZ = 77
+  ROCKNUM = 0
+  SWATINIT = 0
+  SWCR = 0
+  SOWCR = 0
+  SWU = 0
+  SWL = 0
+  SATNUM = 0
+  PVTNUM = 0
+  EQLNUM = 0
+  FIPNUM = 0
+  WORKDEPTH = 0
+  units::pressure = 16
+  PRESSURE = 16
+  SWAT = 0
+  SOIL = 0
+  PCW = 16
+
+[model_parameters]
+  np = 2
+  phase_type = 1
+  disgas_flag = 1
+  n_th_cond_dir = 1
+  model_type = 1027
+  p2_requested = 1
+  nw = 1
+  nc = 2
+  water_flag = 1
+
+[component_names]
+  WATER = 0
+  OIL = 1

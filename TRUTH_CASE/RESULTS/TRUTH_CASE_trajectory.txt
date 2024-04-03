@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<root>
+ <n name="worker_version">3</n>
+ <g name="trajectory_data">
+  <a name="base_coords" size="0" />
+  <a name="kb_shifts" size="0" />
+  <g name="traj_version_table">
+   <n name="last_index">0</n>
+   <a name="set_indexes" size="0" />
+  </g>
+  <g name="name_field">
+   <a name="data" size="0" />
+  </g>
+  <g name="wellbore_id_field">
+   <a name="data" size="0" />
+  </g>
+  <g name="trajectory_field">
+   <a name="data" size="0" />
+  </g>
+  <g name="coord_calc_method_field">
+   <a name="data" size="0" />
+  </g>
+  <g name="current_version_table">
+   <n name="last_index">0</n>
+   <a name="set_indexes" size="0" />
+  </g>
+  <g name="wellbore_ver_field">
+   <a name="data" size="0" />
+  </g>
+ </g>
+</root>

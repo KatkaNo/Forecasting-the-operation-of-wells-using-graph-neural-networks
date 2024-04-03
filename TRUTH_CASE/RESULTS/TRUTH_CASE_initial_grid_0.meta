@@ -1,0 +1,61 @@
+# This file contain metadata for one of the tNavigator result files
+# DO NOT EDIT IT MANUALLY!
+# version = 0.3.0
+# revision =   v22.4-4286-gd6e009802829
+
+[properties]
+  COORD = 0
+  ZCORN = 1
+  ACTNUM = 2
+  PORO = 3
+  NTG = 4
+  PERMX = 5
+  PERMY = 6
+  PERMZ = 7
+  DEPTH = 8
+  PORV = 9
+  TRANX = 10
+  TRANY = 11
+  TRANZ = 12
+  SWATINIT = 13
+  SWCR = 14
+  SOWCR = 15
+  SWU = 16
+  SWL = 17
+  ROCKNUM = 18
+  SATNUM = 19
+  PVTNUM = 20
+  EQLNUM = 21
+  FIPNUM = 22
+  WORKDEPTH = 23
+
+[units]
+  units::no = 0
+  COORD = 0
+  ZCORN = 0
+  ACTNUM = 0
+  PORO = 0
+  NTG = 0
+  PERMX = 0
+  PERMY = 0
+  PERMZ = 0
+  DEPTH = 0
+  PORV = 0
+  TRANX = 0
+  TRANY = 0
+  TRANZ = 0
+  SWATINIT = 0
+  SWCR = 0
+  SOWCR = 0
+  SWU = 0
+  SWL = 0
+  ROCKNUM = 0
+  SATNUM = 0
+  PVTNUM = 0
+  EQLNUM = 0
+  FIPNUM = 0
+  WORKDEPTH = 0
+
+[model_parameters]
+  nw = 1
+  water_flag = 1

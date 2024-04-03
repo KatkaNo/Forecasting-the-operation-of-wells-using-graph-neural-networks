@@ -1,0 +1,7 @@
+The current version offers a new results structure.
+However, since results produced by the previous tNavigator version have been found for this model,
+    the Result Name option will be ignored. To switch to the new results structure, delete the old results and reload the model!
+Warning: since model is water-oil, GOC and capillary pressure on GOC are ignored.
+
+Warning: unsupported parameter 'FRV' has been found in 'D:/MatveevIV/Командировки/2024/03_Сочи/материал/граф/TRUTH_CASE/TRUTH_CASE.SMSPEC' file (skipped)!
+Warning: unsupported parameter 'FRS' has been found in 'D:/MatveevIV/Командировки/2024/03_Сочи/материал/граф/TRUTH_CASE/TRUTH_CASE.SMSPEC' file (skipped)!

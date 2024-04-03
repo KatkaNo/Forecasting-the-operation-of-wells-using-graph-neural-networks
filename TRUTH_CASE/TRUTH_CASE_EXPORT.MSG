@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="us-ascii" standalone="no" ?>
+<eclipse>
+
+  <warning date="" time="">Export optimization disabled, as the case has user keywords</warning>
+
+  <warning date="" time="">The FWIT keyword was not exported by Petrel as it has been modified by the user.</warning>
+
+  <warning date="" time="">The FWIR keyword was not exported by Petrel as it has been modified by the user.</warning>
+
+  <warning date="" time="">The FWPT keyword was not exported by Petrel as it has been modified by the user.</warning>
+
+  <warning date="" time="">The FWPR keyword was not exported by Petrel as it has been modified by the user.</warning>
+
+  <warning date="" time="">The FOPT keyword was not exported by Petrel as it has been modified by the user.</warning>
+
+  <warning date="" time="">The WOIR keyword was not exported by Petrel as it has been modified by the user.</warning>
+
+  <warning date="" time="">The FOPR keyword was not exported by Petrel as it has been modified by the user.</warning>
+
+  <warning date="" time="">The FGPT keyword was not exported by Petrel as it has been modified by the user.</warning>
+
+  <warning date="" time="">The FGPR keyword was not exported by Petrel as it has been modified by the user.</warning>
+
+  <warning date="" time="">The FPR keyword was not exported by Petrel as it has been modified by the user.</warning>
+
+  <warning date="" time="">The WWCT keyword was not exported by Petrel as it has been modified by the user.</warning>
+
+  <warning date="" time="">The WWIT keyword was not exported by Petrel as it has been modified by the user.</warning>
+
+  <warning date="" time="">The WWIR keyword was not exported by Petrel as it has been modified by the user.</warning>
+
+  <warning date="" time="">The WWPR keyword was not exported by Petrel as it has been modified by the user.</warning>
+
+  <warning date="" time="">The WOPT keyword was not exported by Petrel as it has been modified by the user.</warning>
+
+  <warning date="" time="">The WOPR keyword was not exported by Petrel as it has been modified by the user.</warning>
+
+  <warning date="" time="">The WGPT keyword was not exported by Petrel as it has been modified by the user.</warning>
+
+  <warning date="" time="">The WGPR keyword was not exported by Petrel as it has been modified by the user.</warning>
+
+  <warning date="" time="">The WBHP keyword was not exported by Petrel as it has been modified by the user.</warning>
+
+  <warning date="" time="">The FWCT keyword was not exported by Petrel as it has been modified by the user.</warning>
+
+</eclipse>
