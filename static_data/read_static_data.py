@@ -1,9 +1,10 @@
 import pandas as pd
 from models.well_logging import WellLogging
 from models.well import Well
+from models.layer_point import LayerPoint
 
 
-FILENAME = 'Исходные данные SRM-6.xlsx'
+FILENAME = 'SRM_6_data.xlsx'
 
 
 
@@ -24,6 +25,11 @@ def read_static_data():
                         header=3,
                         usecols='B:C'
     )
+    plast_points =  pd.read_excel(FILENAME, 
+                        sheet_name='Отбивки',
+                        header=17,
+                        usecols='B:F'
+    )
 
     wells = []
     for i in wells_df.index:
@@ -39,13 +45,20 @@ def read_static_data():
             log = well_logs_df.loc[j]
             well_logs.append(WellLogging(log.iloc[0], log.iloc[1]))
         
+        layer = plast_points.loc[i]
+
         wells.append(Well(
             well=name,
             x=x,
             y=y,
             bottom=bottom,
             well_logs=well_logs,
-            start_date=dates.loc[i]['Бурение']
+            start_date=dates.loc[i]['Бурение'],
+            layer_point=LayerPoint(H=layer['Hэфф'], 
+                                   FWL_bottom=layer['FWL-bottom'],
+                                   S_poro=layer['S_poro'],
+                                   S_perm=layer['S_perm']
+            )
         ))
     return wells
 
